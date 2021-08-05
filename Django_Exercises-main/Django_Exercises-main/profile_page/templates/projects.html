@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}"/>
+<style>
+    table{
+
+    }
+</style>
+
+</head>
+<body>
+<br><br><br>
+<br><br><br>
+
+ <table width="1200" height="1000" border="2" align="center" style="background-color: black;opacity: 0.7">
+     <tr style="padding-bottom:20px; ">
+         <th ><img src="{% static 'images/music1.jpg' %}" height="200" width="200" style="border-radius: 60%"></th>
+          <th>
+              <h1 style="color: red">Lyrics generator</h1>
+              <h4 style="color: white;line-height: 2.0;">I have written a pop song generator which uses the Markovify library to produce lyrics based on (just for testing purposes) songs by Avril Lavigne. In order to make the generator a bit more competent I have adapted some code which uses the nltk library to determine whether or not two words rhyme.
+              </h4>
+          </th>
+     </tr>
+
+   <tr style="padding-top:20px; ">
+        <th style="padding-left:10px;"><img src="{% static 'images/employee.png' %}" height="200" width="200"></th>
+
+       <th>
+           <h1 style="color: red">Employee Management</h1>
+              <h4 style="color: white;line-height: 2.0;">Employee track and report system management in python report includes a development presentation of an information system for managing the staff data within a small company or organization. The system as such as it has been developed is called Employee Management System. It consists of functionally related GUI (application program) and database.</p>
+       </th>
+
+   </tr>
+     <tr>
+         <th>
+              <img src="{% static 'images/dice1.png' %}" height="200" width="200" style="border-radius: 60%">
+         </th>
+         <th>
+             <h1 style="color: red">Dice Roll</h1>
+              <h4 style="color: white;line-height: 2.0;">We then use a while loop, so that the user can roll the dice again. The roll_again can be set to any value, but here it's set to "yes" or "y", but you can also add other variations to it. import random min = 1 max = 6 roll_again = "yes" while roll_again == "yes" or roll_again == "y": print "Rolling the dices..." print "The values are...</h4>
+
+         </th>
+     </tr>
+ </table>
+
+
+
+</body>
+{% endblock %}
+</html>

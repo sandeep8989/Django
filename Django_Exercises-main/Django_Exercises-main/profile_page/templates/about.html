@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+ <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+
+</head>
+<body >
+<section class="about" >
+    <div class="main">
+         <img src="{% static 'images/hostel.jpeg' %}" class="figure-img img-fluid rounded" alt="..." style="padding-top:100px; width: 300px;height: 600px">
+         <div class="about-text">
+             <h1>ABOUT US</h1>
+             <h5>Developer <span>& Designer</span> </h5>
+             <p> Iam a Full stack developer at Ojas Innovative Technologies.I can provide clean code and
+                 pixel perfect design.I also make the website more and more interactive with web animation.
+                 A responsive design make your website accessible to all users,regardless of their devices.
+
+             </p>
+             <button>Lets talk</button>
+
+         </div>
+    </div>
+
+</section>
+</body>
+{% endblock %}
+</html>

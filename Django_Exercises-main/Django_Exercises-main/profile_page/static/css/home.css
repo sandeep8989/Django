@@ -1,0 +1,114 @@
+body{
+    background-image: url("/static/images/workstation.jpg");
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+   ;
+}
+.one{
+    text-align: center;
+    font-family: "Times New Roman";
+    color: red;
+    padding-top: 100px;
+    width: 500px;
+
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+
+
+}
+
+#profile-wrapper{
+	text-align: center;
+
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 45%;
+	margin-left: auto;
+  	margin-right: auto;
+
+
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+
+}
+
+.social{
+	width:20px;
+	height: 20px;
+}
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: lightblue;
+  color: black;
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+}
+.about img{
+    height: auto;
+    width: 420px;
+    border-radius: 50%;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 90%;
+    margin-left: 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+span{
+    color: #f9004d;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
